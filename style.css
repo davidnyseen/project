@@ -1,3 +1,34 @@
 body {
-font-family: 'Audiowide', cursive;
+    font-family: 'Assistant', sans-serif;
+    color: #2a2626;
+    font-size: 18px;
+    background-color: beige
+}
+
+h1 {
+    color: brown;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+@media (max-width: 700px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
 }
